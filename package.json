@@ -1,0 +1,24 @@
+{
+  "main": "lib/binding.js",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1",
+    "express-fileupload": "^1.2.1",
+    "file-api": "^0.10.4",
+    "filereader": "^0.10.3",
+    "FileReader": "^0.10.2",
+    "mongoose": "^5.12.8",
+    "node-addon-api": "^1.7.2",
+    "node-gyp": "^8.1.0",
+    "nodemon": "^2.0.7"
+  },
+  "scripts": {
+    "start": "nodemon --napi-modules ./project/server.js"
+  },
+  "gypfile": true,
+  "name": "test2",
+  "version": "1.0.0",
+  "description": "demo",
+  "author": "t",
+  "license": "ISC"
+}
